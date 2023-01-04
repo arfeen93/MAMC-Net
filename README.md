@@ -9,9 +9,20 @@ This version has been tested on:
 * PyTorch 1.5.1
 * python 3.8.3
 * cuda 10.2
-
+To convert cumix.yml file into requirements.txt please run:
+```
+import yaml
+with open("environment.yaml") as file_handle:
+    environment_data = yaml.load(file_handle)
+with open("requirements.txt", "w") as file_handle:
+    for dependency in environment_data["dependencies"]:
+        package_name, package_version = dependency.split("=")
+        file_handle.write("{} == {}".format(package_name, package_version))
+```
+Once you get requirements.txt,
 To install all the dependencies, please run:
 ```
+
 pip install -r requirements.txt
 ```
 ## ZSDG experiments

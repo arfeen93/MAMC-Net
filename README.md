@@ -9,6 +9,8 @@ This version has been tested on:
 * PyTorch 1.5.1
 * python 3.8.3
 * cuda 10.2
+
+
 To convert cumix.yml file into requirements.txt please run:
 ```
 import yaml

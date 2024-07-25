@@ -46,4 +46,13 @@ you can find other examples in ```scripts/zsldg.sh```.
 
 ## References
 
-If you find this code useful, please cite:
+### If you find this code useful, please cite: 
+```
+  @inproceedings{arfeen2022handling,
+  title={Handling Class-Imbalance for Improved Zero-Shot Domain Generalization.},
+  author={Arfeen, Ahmad and Dutta, Titir and Biswas, Soma},
+  booktitle={BMVC},
+  pages={728},
+  year={2022}
+}
+```
